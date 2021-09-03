@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://i1.faceprep.in/bucket-list-bg.png");
+    background-size: 100% 35vh;
+    background-repeat: no-repeat;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.heading{
+    margin-top: 5vh;
+    color: white;
+    font-size: 40px;
+}
+.input-container{
+    width: 100%;
+    text-align: center;
+}
+.input-field{
+    width: 25%;
+    height: 40px;
+    border:1px solid #f7be38;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.btn-submit{
+    width: 5%;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #f7be38;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    margin-left: -4%;
+}
+h2{
+    font-size: 28px;
+}
+.hint{
+    font-size: 18px;
+    line-height: 20px;
+}
+.list-container{
+    width: 100%;
+    margin-top: 20vh ;
+    margin-bottom: 10vh;
+    color: #13243e;
+}
+.btn-reset{
+    width: 15%;
+    height: 5.8vh;
+    border-radius: 20px;
+    border: 1px solid #f7be38;
+    background-color: #f7be38;
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer{
+    text-align: center;
+    margin-top: 5%;
+}
+.footer > a{
+    color: black;
+}
+input:focus,button:focus{
+    outline: none;
+}
+.checked{
+    float: right;
+}
+.list{
+    width: 30%;
+    list-style-type: none;
+    border: 1px solid #828282;
+    margin-left: 33%;
+    text-align: start;
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 25px;
+    color: #13243e;
+}
